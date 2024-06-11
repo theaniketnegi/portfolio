@@ -1,6 +1,7 @@
 import {
     EnvelopeClosedIcon,
     GitHubLogoIcon,
+    InstagramLogoIcon,
     LinkedInLogoIcon,
     TwitterLogoIcon,
 } from '@radix-ui/react-icons';
@@ -20,6 +21,9 @@ export const ProfileLinks = () => {
                 >
                     <LinkedInLogoIcon className='h-8 w-8 cursor-pointer hover:-translate-y-[2px] duration-100 transition-transform' />
                 </Link>
+				<Link href='https://www.instagram.com/aniket.blend' target='_blank'>
+                    <InstagramLogoIcon className='h-8 w-8 cursor-pointer hover:-translate-y-[2px] duration-100 transition-transform' />
+                </Link>
                 <Link href='https://www.twitter.com/sillyket' target='_blank'>
                     <TwitterLogoIcon className='h-8 w-8 cursor-pointer hover:-translate-y-[2px] duration-100 transition-transform' />
                 </Link>
@@ -32,7 +36,7 @@ export const ProfileLinks = () => {
                     href='https://drive.google.com/file/d/1A8M9_ugxHf1tLS_KKXcLnT9pFRzEhaEp/view?usp=sharing'
                     target='_blank'
                 >
-                    Download resume
+                    View Resume
                 </Link>
             </Button>
         </>

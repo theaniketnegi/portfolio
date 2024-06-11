@@ -14,7 +14,11 @@ export default function Home() {
                     <div className='inline-block'>
                         <Typewriter
                             options={{
-                                strings: ['Aniket Negi.', 'a developer.'],
+                                strings: [
+                                    '<span>Aniket Negi.</span>',
+                                    '<span style="color:#477eff">a developer.</span>',
+                                    '<span style="color:#ff5151">a 3D artist.</span>',
+                                ],
                                 autoStart: true,
                                 loop: true,
                                 delay: 175,
