@@ -33,7 +33,7 @@ export const ProfileLinks = () => {
             </div>
             <Button className='mt-8' asChild>
                 <Link
-                    href='https://drive.google.com/file/d/1A8M9_ugxHf1tLS_KKXcLnT9pFRzEhaEp/view?usp=sharing'
+                    href='https://drive.google.com/file/d/1tznNI5pT2T7rT9SEMH0mlswV_GuWETb7/'
                     target='_blank'
                 >
                     View Resume
